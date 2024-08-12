@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.logo {
+  border-radius: 58px;
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
+}
+
+.blanco {
+  color: rgb(255, 255, 255);
+  font-family: 'Courgette', cursive;
+  font-size: 17px;
+}
+
+body {
+  background-image: url("https://i0.wp.com/criptotendencia.com/wp-content/uploads/2024/05/Mercados.webp?resize=696%2C398&ssl=1");
+}
+
+.verde {
+  color: rgb(194, 243, 201);
+}
+
+.enca {
+  display: inline;
+}
+
+.barra {
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  float: flex;
+  margin-right: 20px;
+}
+
+.titulo {
+  padding: 10px;
+  margin-left: 20px;
+  font-family: 'Courgette', cursive;
+  color: white;
+  font-size: 35px;
+  position: absolute;
+}
+
+nav, .as {
+  color: white;
+  text-decoration: none;
+  float: right;
+  padding: 8px;
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+}
+
+.amarillo {
+  color: yellow;
+}
+
+@media(min-width: 360px) {
+  .titulo {
+    padding: 2px;
+    margin-left: 10px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+  }
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Centra verticalmente */
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.85); /* Añade transparencia */
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px; /* Añade bordes redondeados */
+}
